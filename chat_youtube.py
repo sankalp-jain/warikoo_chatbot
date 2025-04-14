@@ -4,8 +4,8 @@ import pandas as pd
 import streamlit as st
 from chat_functions import *
 
-GROQ_API_KEY = st.secrets("GROQ_API_KEY")
-YOUTUBE_API_KEY = st.secrets("YOUTUBE_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+YOUTUBE_API_KEY = st.secrets["YOUTUBE_API_KEY"]
 video_titles = pd.read_csv("Video Titles.csv")["Video Titles"].to_list()
 
 st.markdown("""
