@@ -1,0 +1,14 @@
+numpy
+pandas
+pybase64
+streamlit
+faiss-cpu
+load_dotenv
+python-dotenv
+langchain-groq
+sentence_transformers
+youtube-transcript-api
+google-api-python-client
+
+pydantic==2.9.2
+langchain==0.3.23
